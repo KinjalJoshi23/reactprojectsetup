@@ -17,7 +17,7 @@ const App = () => {
       </>
     ),
     {
-      basename: import.meta.env.BASE_URL,
+      basename: '/reactprojectsetup/',
     }
   );
   return <RouterProvider router={router} />;
